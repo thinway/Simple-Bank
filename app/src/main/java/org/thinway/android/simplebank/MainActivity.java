@@ -29,8 +29,11 @@ public class MainActivity extends ActionBarActivity {
         View.OnClickListener ocl = new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                String cantidad = mCajaImporte.getText().toString();
-                mTextoSaldo.setText(cantidad);
+                //String cantidad = mCajaImporte.getText().toString();
+                //mTextoSaldo.setText(cantidad);
+                int contador = Integer.parseInt(mTextoSaldo.getText().toString());
+                contador++;
+                mTextoSaldo.setText(""+contador);
             }
         };
 
@@ -39,10 +42,13 @@ public class MainActivity extends ActionBarActivity {
         View.OnClickListener listenerExtraer = new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                int saldo = Integer.parseInt(mTextoSaldo.getText().toString());
-                int sacado = Integer.parseInt(mCajaImporte.getText().toString());
-                int total = saldo - sacado;
-                mTextoSaldo.setText("" + total);
+                //int saldo = Integer.parseInt(mTextoSaldo.getText().toString());
+                //int sacado = Integer.parseInt(mCajaImporte.getText().toString());
+                //int total = saldo - sacado;
+                //mTextoSaldo.setText("" + total);
+                int contador = Integer.parseInt(mTextoSaldo.getText().toString());
+                contador--;
+                mTextoSaldo.setText(""+contador);
             }
         };
 

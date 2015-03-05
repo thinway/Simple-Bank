@@ -3,11 +3,11 @@
 
     <string name="app_name">SimpleBank</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Opción 1</string>
 
     <string name="amount_hint">Introducir cantidad</string>
     <string name="deposit">GUARDAR</string>
     <string name="withdraw">EXTRAER</string>
-    <string name="balance_placeholder">Balance</string>
+    <string name="balance_placeholder">0</string>
 
 </resources>

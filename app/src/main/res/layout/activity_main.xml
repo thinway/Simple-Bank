@@ -14,7 +14,7 @@
     <EditText
         android:id="@+id/cantidadEditText"
         android:gravity="center"
-        android:hint="@string/amount_hint"
+        android:text="@string/amount_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
